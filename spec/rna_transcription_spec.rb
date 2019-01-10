@@ -7,7 +7,7 @@ describe 'rna_transcription' do
   it 'rna complement of cytosine is guanine' do
     expect(rna_transcription("C")).to eq "G"
   end
-  it 'C if G' do
+  it 'rna complement of guanine is cytosine' do
     expect(rna_transcription("G")).to eq "C"
   end
   it 'A if T' do
