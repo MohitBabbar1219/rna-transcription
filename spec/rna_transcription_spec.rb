@@ -7,4 +7,7 @@ describe 'rna_transcription' do
   it 'G if C' do
     expect(rna_transcription("C")).to eq "G"
   end
+  it 'C if G' do
+    expect(rna_transcription("G")).to eq "C"
+  end
 end

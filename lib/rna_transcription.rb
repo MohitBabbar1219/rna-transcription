@@ -1,6 +1,7 @@
 def rna_transcription(str)
   rna_map = {
-      "C"=> "G"
+      "C"=> "G",
+      "G"=> "C"
   }
   rna_transcribed = ""
   str.to_s.split("").each do |pres_char|
